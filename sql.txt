@@ -1,0 +1,1 @@
+SELECT dataminat.nama_minat, ciriminat.ciri_minat, rule.MB, rule.MD FROM rule, ciriminat, dataminat WHERE rule.id_ciri = ciriminat.id and rule.id_minat = dataminat.id 
